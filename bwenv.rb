@@ -1,8 +1,8 @@
 class Bwenv < Formula
   desc "Bitwarden + direnv helper — sync secrets from Bitwarden into your shell environment"
   homepage "https://github.com/s1ks1/bwenv"
-  url "https://github.com/s1ks1/bwenv/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "0cd4437b6bc8cf526741d323c9c24702d90a2d675bc426b2e00db81c532c8bac"
+  url "https://github.com/s1ks1/bwenv/archive/refs/tags/v1.1.1.tar.gz"
+  sha256 "a169d17e55fb69c0291cfa90af2daec370eba48e83cacf12da5ebea4e19bde7c"
   license "MIT"
 
   depends_on "bitwarden-cli"
@@ -39,4 +39,5 @@ class Bwenv < Formula
     assert_match "Usage:", shell_output("#{bin}/bwenv 2>&1", 0)
   end
 end
+
 
