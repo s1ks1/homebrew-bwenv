@@ -3,7 +3,7 @@ cask "bwenv" do
   name "bwenv"
   desc "Sync secrets from password managers (Bitwarden, 1Password) into your shell via direnv"
   homepage "https://github.com/s1ks1/bwenv"
-  version "2.0.1"
+  version "2.0.2"
 
   livecheck do
     url :url
@@ -15,22 +15,22 @@ cask "bwenv" do
   on_macos do
     on_intel do
       url "https://github.com/s1ks1/bwenv/releases/download/v#{version}/bwenv-#{version}-darwin-amd64.tar.gz"
-      sha256 "1a4ccd8ca6b8fdfa1e75ff7d406f5802e62e9ce2137fd9bb49b7903241aea143"
+      sha256 "13b43b79fe3ac0dd31e55d034e4e16b6ffc9ca1d71d25b29e29f7c44bd2a9a64"
     end
     on_arm do
       url "https://github.com/s1ks1/bwenv/releases/download/v#{version}/bwenv-#{version}-darwin-arm64.tar.gz"
-      sha256 "c4e3b6726c685d719d8d9f3660aa733121622211d0347e1b016bce3d5bf70f85"
+      sha256 "c63ca4d28c1d3a40fc1e156125d006018107fca842838490883a659fd7dcefd8"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/s1ks1/bwenv/releases/download/v#{version}/bwenv-#{version}-linux-amd64.tar.gz"
-      sha256 "51d8aa8049aa197a9da5caa168c1ef00512bfd1da91abf7a8de3a9eb483a8ea0"
+      sha256 "2f2fe348004e8ac7d142440eb64e0d38dcce0968003e195bc7917bfde77e7412"
     end
     on_arm do
       url "https://github.com/s1ks1/bwenv/releases/download/v#{version}/bwenv-#{version}-linux-arm64.tar.gz"
-      sha256 "d8c93511095992f47d8ec6039fcc005ba3068f83923e84374570d9c2b02f1161"
+      sha256 "1838a6c56ae39da2f132fc59a2fc46b0049e1eb68565b7132b7ebb38794a7a2a"
     end
   end
 
