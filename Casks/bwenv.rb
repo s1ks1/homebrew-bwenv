@@ -4,22 +4,22 @@ cask "bwenv" do
 
   on_macos do
     on_intel do
-      sha256 "afdf3f8752a8c2db0b78e02f26927527eac55548743f3be615f79bf50ecd09cb"
+      sha256 "a7669092364f22c92c863912700aae962453997950ce89210110da5b32dccecf"
       url "https://github.com/s1ks1/bwenv/releases/download/v#{version}/bwenv-#{version}-darwin-amd64.tar.gz"
     end
     on_arm do
-      sha256 "a97ad776589d0c632654ccad30054071e87726e35247fa423b5580291aa7588a"
+      sha256 "f2556847d947059d504ee4a3be90ec3ce09a55feb4cccc8b7d8d13319c242655"
       url "https://github.com/s1ks1/bwenv/releases/download/v#{version}/bwenv-#{version}-darwin-arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "22ba6f82e4c11322feb5d3befc8ef09c30d16046c315fa141585e8978da3d1c4"
+      sha256 "443076db0a4f0cd747c3665c6e0c920816f51d998a0cb531421114d2be76d37e"
       url "https://github.com/s1ks1/bwenv/releases/download/v#{version}/bwenv-#{version}-linux-amd64.tar.gz"
     end
     on_arm do
-      sha256 "c8ef6bb2a023af5e6fb4a158b80b01ca4cfbf119d86c8198447d7aa10a6bbc19"
+      sha256 "c3451905fbca49b9aec319327e9f2c1b68283eb651c7c0b4fb8ec92abda25397"
       url "https://github.com/s1ks1/bwenv/releases/download/v#{version}/bwenv-#{version}-linux-arm64.tar.gz"
     end
   end
